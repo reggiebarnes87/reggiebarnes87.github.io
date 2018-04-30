@@ -1,6 +1,7 @@
 <?php 
-session_start();
-if (filter_has_var(INPUT_POST, 'Submit'))
+//session_start();
+if(isset($_POST) & !empty($_POST))
+
 {
 
 echo "Submitted";
